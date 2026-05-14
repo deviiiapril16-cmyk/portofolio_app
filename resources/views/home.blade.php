@@ -1,4 +1,9 @@
-<section style="background-color: #fff5eb; padding: 60px 0; font-size: 25px;" id="home">
+@extends('layout.app')
+
+@section('title', 'Home')
+
+@section('content')
+   <section style="background-color: #fff5eb; padding: 50px 0; font-size: 25px; margin-top: 50px" id="home">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-md-6">
@@ -7,8 +12,9 @@
       </div>
 
       <div class="col-12 col-md-6 text-md-end">
-        <img src="img/profil.png" alt="Gambar" class="img-fluid img_profil">
+        <img src="{{ asset('img/profil.png') }}" alt="Foto">
       </div>
     </div>
   </div>
 </section>
+@endsection

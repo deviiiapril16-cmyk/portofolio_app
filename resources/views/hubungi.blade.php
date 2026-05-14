@@ -1,3 +1,8 @@
+@extends('layout.app')
+
+@section('title', 'About')
+
+@section('content')
 <section class="container py-5" id="hubungi">
   <h2 class="text-center mb-4">Hubungi Saya</h2>
   <form method="POST" class="mx-auto" style="max-width: 600px; font-size: 18px;" style="max-width: 600px; font-size: 18px;">
@@ -28,3 +33,6 @@
   </div>
   </form>
 </section>
+@endsection
+
+
