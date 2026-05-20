@@ -22,6 +22,14 @@ Route::get('/kontak', function () {
 
 Route::post('/simpan-pesan', [PesanController::class, 'simpan']);
 
+Route::get('/data_pesan', [PesanController::class, 'tampil']);
+
+Route::get('/hapus-pesan/{id}', [PesanController::class, 'hapus']);
+
+Route::get('/edit-pesan/{id}', [PesanController::class, 'edit']);
+
+Route::post('/update_pesan/{id}', [PesanController::class, 'update']);
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
