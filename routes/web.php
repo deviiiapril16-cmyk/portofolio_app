@@ -8,18 +8,6 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/about_us', function () {
-    return view('about_us');
-});
-
-Route::get('/hubungi', function () {
-    return view('hubungi');
-});
-
-Route::get('/kontak', function () {
-    return view('kontak');
-});
-
 Route::post('/simpan-pesan', [PesanController::class, 'simpan']);
 
 Route::get('/data_pesan', [PesanController::class, 'tampil']);

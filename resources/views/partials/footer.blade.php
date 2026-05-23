@@ -1,4 +1,4 @@
-<footer class="text-center py-4" id="footer" style="background-color: #f7e1cc; color: rgb(48, 48, 48); font-size: 15px;">
+<footer class="text-center py-4" id="footer" style="background-color:  #FBCFE8; color: rgb(48, 48, 48); font-size: 15px;">
   <div class="container" id="footer-container">
     <p class="mb-1" id="footer-text">
       Upgrade Engineering Skill: Dari Konsep Menuju Karya Nyata.
